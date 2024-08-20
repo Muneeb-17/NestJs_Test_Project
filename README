@@ -1,0 +1,73 @@
+# Project Title
+
+Nest JS
+
+## Getting Started
+
+Use npm i to setup project.
+
+
+### Executing program
+
+* signIn To generate a token.
+
+curl --location 'http://localhost:8080/auth/signIn' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "Hello2@gmail.com",
+    "password": "hello"
+    
+    
+}'
+
+
+* signUp 
+
+curl --location 'http://localhost:8080/auth/signUp' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email": "Hello2@gmail.com",
+    "password": "hello",
+    "firstName": "Muneeb",
+    "lastName" : "R"
+}'
+
+* To get All Users
+
+curl --location 'http://localhost:8080/users/v1/Hello@gmail.com' \
+--header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImVtYWlsIjoiSGVsbG8yQGdtYWlsLmNvbSIsImlhdCI6MTY5NzcyNDE3NywiZXhwIjoxNjk3NzI1MDc3fQ.2RARZYSJmuvqjZGM3t6vfDxl7oHDLNFyHMssqonCly8'
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+## Version History
+
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
