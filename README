@@ -15,7 +15,7 @@ curl --location 'http://localhost:8080/auth/signIn' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "email": "Hello2@gmail.com",
-    "password": "hello"
+    "password": "****"
     
     
 }'
@@ -27,7 +27,7 @@ curl --location 'http://localhost:8080/auth/signUp' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "email": "Hello2@gmail.com",
-    "password": "hello",
+    "password": "****",
     "firstName": "Muneeb",
     "lastName" : "R"
 }'
@@ -35,7 +35,7 @@ curl --location 'http://localhost:8080/auth/signUp' \
 * To get All Users
 
 curl --location 'http://localhost:8080/users/v1/Hello@gmail.com' \
---header 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjUsImVtYWlsIjoiSGVsbG8yQGdtYWlsLmNvbSIsImlhdCI6MTY5NzcyNDE3NywiZXhwIjoxNjk3NzI1MDc3fQ.2RARZYSJmuvqjZGM3t6vfDxl7oHDLNFyHMssqonCly8'
+--header 'Authorization: FakeToken'
 
 ## Help
 
