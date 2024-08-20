@@ -29,7 +29,7 @@
 ## Installation
 
 ```bash
-$ yarn install 
+$ yarn install
 ```
 
 ## Running the app
@@ -37,13 +37,6 @@ $ yarn install
 ```bash
 # development
 $ yarn run start
-
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
-```
 
 ## Test
 
