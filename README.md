@@ -38,18 +38,9 @@ $ yarn install
 # development
 $ yarn run start
 
-## Test
+## To Spin the Database use this script
+$ docker compose up dev-db
 
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
 
 ## Support
 
